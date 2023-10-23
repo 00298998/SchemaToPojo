@@ -1,0 +1,55 @@
+{
+  "type": "record",
+  "name": "SolverRequest",
+  "namespace": "Pojo",
+  "fields": [
+    {
+      "name": "airlineCode",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "containerLink",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "createdBy",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "env",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "eventSrcTimeStamp",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "fileSize",
+      "type": ["null", "int"]
+    },
+    {
+      "name": "filename",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "fleet",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "position",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "snapshotID",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "source",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "status",
+      "type": ["null", "string"]
+    }
+  ]
+}
